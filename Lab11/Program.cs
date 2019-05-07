@@ -12,7 +12,8 @@ namespace Lab11
         {
 
             List<Movie> movies = new List<Movie>();
-            
+
+            #region Movies in List
             Movie movie1 = new Movie("Avengers Endgame", "Scifi");
             movies.Add(movie1);
             Movie movie2 = new Movie("Glass", "Scifi");
@@ -33,7 +34,7 @@ namespace Lab11
             movies.Add(movie9);
             Movie movie10 = new Movie("Pet Sematary", "Horror");
             movies.Add(movie10);
-            
+            #endregion
 
             Console.WriteLine("Welcome to the Movie List Application!\n");
             Console.WriteLine($"There are {movies.Count} movies in this list.");
