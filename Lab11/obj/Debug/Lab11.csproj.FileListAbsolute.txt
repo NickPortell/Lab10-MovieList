@@ -5,3 +5,10 @@ C:\GrandCircus\Documents\Lab exercises\Lab11\Lab11\bin\Debug\Lab11.exe
 C:\GrandCircus\Documents\Lab exercises\Lab11\Lab11\bin\Debug\Lab11.pdb
 C:\GrandCircus\Documents\Lab exercises\Lab11\Lab11\obj\Debug\Lab11.exe
 C:\GrandCircus\Documents\Lab exercises\Lab11\Lab11\obj\Debug\Lab11.pdb
+F:\GrandCircus\Documents\Labs\Lab10-MovieList\Lab11\bin\Debug\Lab11.exe.config
+F:\GrandCircus\Documents\Labs\Lab10-MovieList\Lab11\bin\Debug\Lab11.exe
+F:\GrandCircus\Documents\Labs\Lab10-MovieList\Lab11\bin\Debug\Lab11.pdb
+F:\GrandCircus\Documents\Labs\Lab10-MovieList\Lab11\obj\Debug\Lab11.csprojAssemblyReference.cache
+F:\GrandCircus\Documents\Labs\Lab10-MovieList\Lab11\obj\Debug\Lab11.csproj.CoreCompileInputs.cache
+F:\GrandCircus\Documents\Labs\Lab10-MovieList\Lab11\obj\Debug\Lab11.exe
+F:\GrandCircus\Documents\Labs\Lab10-MovieList\Lab11\obj\Debug\Lab11.pdb

@@ -13,18 +13,7 @@ namespace Lab11
         private string category;
         #endregion
 
-        //#region Properties
-        //public string Title
-        //{
-        //    set { title = value; }
-        //    get { return title; }
-        //}
-        //public string Category
-        //{
-        //    set { category = value; }
-        //    get { return category; }
-        //}
-        //#endregion
+
 
         public Movie(string _title, string _category)
         {
@@ -32,23 +21,33 @@ namespace Lab11
             category = _category;
         }
 
+
         #region Methods
-        public static void PrintByGenre(List<Movie> movies,string _category)
+        public static void PrintByGenre(List<Movie> movies, string _category)
         {
+            List<string> titles = new List<string>();
+
             Console.WriteLine($"Movies in the {_category} category:");
             Console.WriteLine("================================");
             foreach(Movie movie in movies)
             {
                 if(movie.category == _category)
                 {
-                    Console.WriteLine(movie.title);
+                    titles.Add(movie.title);
                 }
+            }
+            titles.Sort();
+            foreach (string name in titles)
+            {
+                Console.WriteLine(name);
             }
             Console.WriteLine("\n");
         }
 
         public static void ListMovies(List<Movie> movies)
         {
+            Console.WriteLine("\n=======================");
+            Console.WriteLine("Here are our categories\n=======================");
             Console.WriteLine("\n\t1. Animated\n\t2. Drama\n\t3. Horror\n\t4. Scifi\n\t5. Quit");
 
             if (int.TryParse(Console.ReadLine(), out int selection))
@@ -59,24 +58,28 @@ namespace Lab11
                         {
                             Console.Clear();
                             PrintByGenre(movies, "Animated");
+                            ListMovies(movies);
                             break;
                         }
                     case 2://Drama
                         {
                             Console.Clear();
                             PrintByGenre(movies, "Drama");
+                            ListMovies(movies);
                             break;
                         }
                     case 3://Horror
                         {
                             Console.Clear();
                             PrintByGenre(movies, "Horror");
+                            ListMovies(movies);
                             break;
                         }
                     case 4://Scifi
                         {
                             Console.Clear();
                             PrintByGenre(movies, "Scifi");
+                            ListMovies(movies);
                             break;
                         }
                     case 5://Quit
