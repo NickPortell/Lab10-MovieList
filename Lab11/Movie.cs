@@ -90,6 +90,7 @@ namespace Lab11
             }
             else
             {
+                Console.Clear();
                 Console.Write("Invalid input! (Please enter a number from 1-5)");
                 ListMovies(movies);
             }
